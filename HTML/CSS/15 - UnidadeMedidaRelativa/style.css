@@ -1,0 +1,22 @@
+* {
+    background-color: lightskyblue;
+    font-size: 20px;
+}
+
+body{
+    background-color: lightgoldenrodyellow;
+    width: 50%;
+    font-size: 2em;
+}
+
+.pai{
+    background-color: lightcoral;
+    width: 50%;
+    font-size: 3em;
+}
+
+.filho{
+    background-color: burlywood;
+    width: 50%;
+    font-size: 2rem;
+}

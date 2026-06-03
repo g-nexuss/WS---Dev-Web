@@ -1,0 +1,8 @@
+.BoxBorder {
+    width: 200px;
+    padding: 20px;
+    border: 5px solid #3498db;
+    box-sizing: border-box;
+    background-color: #d6eaf8;
+    margin-bottom: 30px;
+  }

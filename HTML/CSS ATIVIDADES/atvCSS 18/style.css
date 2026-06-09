@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #2c5aa0;
+    text-align: center;
+}
+
+h2 {
+    color: #555;
+}
+
+h3 {
+    color: #2c5aa0;
+}
+
+/* Sublinhado ao passar o mouse */
+h1:hover,
+h2:hover,
+h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+p {
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+.introducao {
+    font-style: italic;
+}
+
+img {
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #2c5aa0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+}

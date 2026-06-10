@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.float-left {
+    float: left;
+    width: 200px;
+    height: 100px;
+    background-color: lightcoral;
+}
+
+.float-right {
+    float: right;
+    width: 200px;
+    height: 100px;
+    background-color: lightseagreen;
+}
+
+.no-float {
+    float: none;
+    width: 100%;
+    background-color: lightblue;
+}
+
+.clear{
+clear: both;
+background-color: lightgray;
+}

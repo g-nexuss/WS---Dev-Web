@@ -1,0 +1,28 @@
+/*!IMPORTANT*/
+p{
+    background-color: lightslategray !important;
+}
+
+.container-cascata {
+    background-color: lightblue;
+}
+
+.container-cascata {
+    background-color: lightcoral;
+}
+
+.container-cascata {
+    background-color: lightgreen;
+}
+ /*ESPECIFIDADE*/
+#id-paragrafo {
+    background-color: lightgray;
+}
+
+.classe-paragrafo {
+    background-color: lightyellow;
+}
+
+ P{
+    background-color: lightpink;
+ }

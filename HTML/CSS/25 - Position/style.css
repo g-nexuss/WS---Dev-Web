@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.elemento{
+    color: white;
+    font-size: 30px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
+
+.estatico{
+    background-color: coral;
+    position: static;
+}
+
+.relativo{
+    background-color: lightblue;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.absoluto{
+    background-color: lightgreen;
+    position: absolute;
+    top: 0;
+    left: 300px;
+}
+
+.relativo-pai{
+    background-color: lightcoral;
+    position: relative;
+    height: 400px;
+    width: 400px;
+}
+
+.absoluto-filho{
+    background-color: lightseagreen;
+    position: absolute;
+    width: 150px;
+    height: 250px;
+    top: 50px;
+    left: 150px;
+}

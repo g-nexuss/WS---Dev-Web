@@ -1,0 +1,13 @@
+.bg{
+    width: 200vw;
+    height: 200vh;
+    color: lightblue;
+    background-color: coral;
+    background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg);
+    /*background-repeat: no-repeat*/
+    /*background-size: cover;*/
+    background-attachment:scroll;
+    background-position: right;
+
+    
+}

@@ -1,0 +1,32 @@
+/* Campo das váriaveis */
+:root{
+    --cor-principal: #580d0d;
+    --cor-secundaria: #33b133;
+    --espaçamento: 10px;
+    --tamanh-fonte-texto: 24px;
+    --fonte-principal:arial, Helvetica, sans-serif;
+    --fonte-seundaria:'Courier New',Courier, monospace;
+}
+
+button{
+    color: var(--cor-secundaria);
+    background-color: var(--cor-principal);
+    letter-spacing: var(--espaçamento);
+    padding: var(--espaçamento);
+    font-family: var(--fonte-principal);
+}
+
+p{
+    color : var(--cor-secundaria);
+    background-color: var(--cor-principal);
+    margin: var(--espaçamento);
+    font-family: var(--fonte-seundaria);
+    font-size: var(--tamanh-fonte-texto);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+

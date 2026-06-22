@@ -4,27 +4,37 @@
     box-sizing: border-box;
 }
 
-.float-left {
+.container {
+    border: 2px solid black;
+    padding: 10px;
+    width: 700px;
+}
+
+.bloco-esquerdo{
     float: left;
     width: 200px;
-    height: 100px;
-    background-color: lightcoral;
+    height: 200px;
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    line-height: 10px;
 }
 
-.float-right {
+.bloco-direito{
     float: right;
     width: 200px;
-    height: 100px;
-    background-color: lightseagreen;
+    height: 200px;
+    background-color: lightcoral;
+    color: white;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 10px;
 }
 
-.no-float {
-    float: none;
-    width: 100%;
-    background-color: lightblue;
-}
-
-.clear{
-clear: both;
-background-color: lightgray;
+.texto-final{
+  clear: both;
+  text-align: center;
+  margin-top: 30px;
 }

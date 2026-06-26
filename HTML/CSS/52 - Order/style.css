@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    width: 500px;
+    margin: 5px;
+    padding: 10px;
+    background-color: navy;
+}
+
+.item{
+    background-color: coral;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.item1 {
+order: 2;
+}
+
+.item2{
+order: 3;
+}
+
+.item3{
+order: 1;
+}
+
+.destaque{
+order: -1;
+background-color: brown
+;
+}

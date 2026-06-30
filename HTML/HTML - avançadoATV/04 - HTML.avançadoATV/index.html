@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Portal de Serviços</title>
+    <style>
+        .icon { width: 20px; }
+        .alert-box { padding: 10px; background: #ffe6e6; border: 1px solid red; }
+    </style>
+</head>
+<body>
+    <h1>Portal do Cliente</h1>
+
+    <!-- Imagem com descrições -->
+    <img src="logo.png" alt="Logo da Empresa XPTO" title="Nossa identidade visual">
+
+    <!-- Botão sem texto visível (acessível via aria-label) -->
+    <button aria-label="Fechar janela de ajuda">X</button>
+
+    <!-- Ícone decorativo (escondido para leitores de tela) -->
+    <img src="dec.png" alt="" aria-hidden="true" class="icon">
+
+    <!-- Mensagem importante -->
+    <div role="alert" class="alert-box">
+        Sistema em manutenção às 22h.
+    </div>
+
+    <!-- Link com tabindex -->
+    <a href="#" tabindex="1">Ir para o início</a>
+</body>
+</html>
